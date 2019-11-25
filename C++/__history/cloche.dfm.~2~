@@ -1,0 +1,96 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 300
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object connexion: TButton
+    Left = 8
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Connexion'
+    TabOrder = 0
+    OnClick = connexionClick
+  end
+  object cloche1: TButton
+    Left = 80
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Cloche 1'
+    TabOrder = 1
+    OnClick = cloche1Click
+  end
+  object cloche2: TButton
+    Left = 176
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Cloche 2'
+    TabOrder = 2
+    OnClick = cloche2Click
+  end
+  object cloche3: TButton
+    Left = 272
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Cloche 3'
+    TabOrder = 3
+    OnClick = cloche3Click
+  end
+  object cloche4: TButton
+    Left = 368
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Cloche 4'
+    TabOrder = 4
+    OnClick = cloche4Click
+  end
+  object close: TButton
+    Left = 544
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Close'
+    TabOrder = 5
+    OnClick = closeClick
+  end
+  object Edit1: TEdit
+    Left = 200
+    Top = 136
+    Width = 121
+    Height = 21
+    TabOrder = 6
+    OnKeyDown = Edit1KeyDown
+  end
+  object melodie: TButton
+    Left = 224
+    Top = 105
+    Width = 75
+    Height = 25
+    Caption = 'M'#233'lodie'
+    TabOrder = 7
+    OnClick = melodieClick
+  end
+  object fichier: TButton
+    Left = 224
+    Top = 24
+    Width = 75
+    Height = 25
+    Caption = 'Fichier'
+    TabOrder = 8
+    OnClick = fichierClick
+  end
+end
