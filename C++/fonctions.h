@@ -9,7 +9,7 @@
 	private :
 		SOCKET sock;
 
-	public :
+	public ://declarations des fonctions
 	  cloche(SOCKET sock);
 	  ~cloche();
 	  void cloche1();

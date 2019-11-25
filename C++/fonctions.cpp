@@ -7,11 +7,11 @@
 #pragma package(smart_init)
 cloche::cloche(SOCKET sock)
 {
-    this->sock = sock;
+    this->sock = sock;//constructeur
 }
 cloche::~cloche()
 {
-
+//destructeur
 }
 
 void cloche::cloche1()
