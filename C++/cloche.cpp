@@ -135,7 +135,7 @@ void __fastcall TForm1::cloche4Click(TObject *Sender)
 void __fastcall TForm1::Edit1KeyDown(TObject *Sender, WORD &Key, TShiftState Shift)
 
 {
-	fait sonner les cloches à l'appui de F1, F2, F3 ou F4
+	//fait sonner les cloches à l'appui de F1, F2, F3 ou F4
   if (Key==VK_F1) {
 		ding->cloche1();
   }

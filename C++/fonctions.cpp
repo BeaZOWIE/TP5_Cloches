@@ -29,7 +29,7 @@ void cloche::cloche1()
 	buffer[8]=0x00;
 	buffer[9]=0x02;
 	buffer[10]=0x00;
-	buffer[11]=0x01;
+	buffer[11]=0x09;
 	// initialisation de la trame pour arreter la cloche n°1
 	char marteau[11];
 	marteau[0]=0x00;
