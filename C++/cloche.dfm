@@ -107,7 +107,7 @@ object Form1: TForm1
     Left = 208
     Top = 90
     Width = 225
-    Height = 39
+    Height = 22
     Cursor = crIBeam
     Alignment = taCenter
     Color = clSilver

@@ -31,6 +31,7 @@ __published:	// Composants gérés par l'EDI
 	void __fastcall Edit1KeyDown(TObject *Sender, WORD &Key, TShiftState Shift);
 	void __fastcall melodieClick(TObject *Sender);
 	void __fastcall fichierClick(TObject *Sender);
+	void __fastcall UdpSocket1Connect(TObject *Sender);
 private:	// Déclarations utilisateur
 	cloche *ding;
 	SOCKET sock;

@@ -81,7 +81,7 @@ void __fastcall TForm1::connexionClick(TObject *Sender)
 			fichier->Visible=true;
 			close->Visible=true;
 			Edit1->Visible=true;
-            		Form1->Color = clGradientActiveCaption;
+			Form1->Color = clGradientActiveCaption;
 			ding = new cloche(sock);
 		}
 		else
@@ -208,7 +208,4 @@ void __fastcall TForm1::fichierClick(TObject *Sender)
 
 }
 //---------------------------------------------------------------------------
-
-
-
 
